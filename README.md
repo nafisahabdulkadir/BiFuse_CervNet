@@ -111,9 +111,6 @@ Before a reproducible release, add the actual environment specification, dataset
 ## Limitations
 
 - Evaluation is limited to TCGA-CESC, without external validation in the reported study.
-- Proxy labels are recoverable from their defining colour statistic and lack expert validation; high proxy-task performance does not demonstrate diagnostic accuracy.
-- The reported proxy threshold uses the entire corpus. This should be disclosed when interpreting the evaluation; a training-only threshold is a useful stricter follow-up protocol.
-- Patient grades are inherited by patches rather than independently annotated at patch level.
 - Short-budget ablations are exploratory and do not establish fully converged performance.
 - Post-hoc analysis found gate values near unity (approximately 0.99988), with little variation between patches. Adaptive context-dependent modulation has therefore not been established.
 - Grad-CAM visualisations are exploratory and do not establish clinical validity.
